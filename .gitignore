@@ -4,5 +4,6 @@ __pycache__/
 .env*
 !.env.example
 *.mp4
+!demo/eia-research-codex-demo.mp4
 *.mov
 *.zip
