@@ -22,7 +22,7 @@ cp -R eia-research-skill/skills/eia-research ~/.codex/skills/
 
 若已有同名目录，请先比对本地修改，再更新目录。Codex 的技能安装路径也可参考其内置 `skill-installer`。
 
-Claude Code 的个人技能目录是 `~/.claude/skills/`，项目技能目录是 `.claude/skills/`；把同一个 `eia-research` 目录放入其中即可。WorkBuddy 使用 `SKILL.md` 和 `references/` 结构，可按[官方 Skill 文档](https://open.workbuddy.cn/docs/skill)打包导入。水镜当前使用受限的仓库 Skill 格式，不会递归读取这里的 `references/`；接入时需按水镜的格式改写流程，并确认检索工具和引用回读真实可用，不能直接复制目录就视为安装成功。这里提供的是可移植资料和流程，不表示四个平台的运行环境已全部实测或上架。
+Claude Code 的个人技能目录是 `~/.claude/skills/`，项目技能目录是 `.claude/skills/`；把同一个 `eia-research` 目录放入其中即可。WorkBuddy 使用 `SKILL.md` 和 `references/` 结构，可按[官方 Skill 文档](https://open.workbuddy.cn/docs/skill)打包导入。水镜当前使用受限的仓库 Skill 格式，不会递归读取这里的 `references/`；可参考[水镜适配材料](integrations/fathom/README.md)接入，但必须另行安装、发布并核验真实检索和引用，不能直接复制公开版目录就视为成功。这里提供的是可移植资料和流程，不表示四个平台的运行环境已全部实测或上架。
 
 ## 代码怎么读
 
